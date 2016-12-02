@@ -39,13 +39,11 @@ of code and documentation.
 
 #### Repository and distribution
 
-The code repository is at
-
+The code repository is at<br>
 https://github.com/ices-tools-prod/icesAdvice
 
 Version 1.1-0 of the package was submitted to CRAN on 18 May 2016, where it can
-be found at:
-
+be found at<br>
 https://cran.r-project.org/package=icesAdvice
 
 #### Roxygen
@@ -189,36 +187,28 @@ and trailing spaces should be avoided.
 ### Writing R packages
 
 * R Core Team. 2016. ***Writing R extensions***. Vienna: R Foundation for
-  Statistical Computing. Available at:
-
-  https://cran.r-project.org/doc/manuals/r-release/R-exts.html and
-
+  Statistical Computing. Available at:<br>
+  https://cran.r-project.org/doc/manuals/r-release/R-exts.html and<br>
   https://cran.r-project.org/doc/manuals/r-release/R-exts.pdf
 
-* Wickham, H. 2015. ***R packages***. Sebastopol: O'Reilly. Available at:
-
+* Wickham, H. 2015. ***R packages***. Sebastopol: O'Reilly. Available at:<br>
   http://r-pkgs.had.co.nz
 
 ### Development tools
 
 * Chacon, S. and B. Straub. 2014. ***Pro Git***, 2nd ed. New York: Apress.
-  Available at:
-
+  Available at:<br>
   https://git-scm.com/book/en/v2
 
 * ESS Developers. 2016. ***Emacs Speaks Statistics***. User manual.
-  Available at:
-
-  http://ess.r-project.org/Manual/ess.html and
-
+  Available at:<br>
+  http://ess.r-project.org/Manual/ess.html and<br>
   http://ess.r-project.org/ess.pdf
 
 * RStudio. 2016. ***RStudio cheat sheets: RStudio IDE, devtools, R Markdown***.
-  User manuals. Available at:
-
+  User manuals. Available at:<br>
   https://www.rstudio.com/resources/cheatsheets/
 
 * Wickham, H. 2015. ***Introduction to roxygen2***. R package vignette.
-  Available at:
-
+  Available at:<br>
   https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html
