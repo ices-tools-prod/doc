@@ -182,7 +182,7 @@ R CMD check --as-cran icesAdvice_1.1-0.tar.gz</code></pre>
 </div>
 <div id="style" class="section level2">
 <h2><span class="header-section-number">4.5</span> Style</h2>
-<p>There is no need to enforce some ICES style of R code appearance, when it comes to indentation, spaces between characters, and maximum length of lines. It is nevertheless helpful to have a consistent style within a given file. The easiest way to achieve this is polite coding:</p>
+<p>There is no need to enforce some ICES style of R code appearance when it comes to indentation, spaces between characters, and maximum length of lines. It is nevertheless helpful to have a consistent style within a given file. The easiest way to achieve this is polite coding:</p>
 <ul>
 <li><p>When modifying an existing file, follow (exactly) the style found within that file.</p></li>
 <li><p>When creating a new file, use a consistent style within that file.</p></li>

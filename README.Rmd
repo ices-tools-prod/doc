@@ -187,7 +187,7 @@ should be avoided.
 
 ## Style
 
-There is no need to enforce some ICES style of R code appearance, when it comes
+There is no need to enforce some ICES style of R code appearance when it comes
 to indentation, spaces between characters, and maximum length of lines. It is
 nevertheless helpful to have a consistent style within a given file. The easiest
 way to achieve this is polite coding:
