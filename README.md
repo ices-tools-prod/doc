@@ -154,9 +154,13 @@
 <p>The first two points are important: to build and check, and to document user-visible changes.</p>
 <div id="build-and-check" class="section level2">
 <h2><span class="header-section-number">4.1</span> Build and check</h2>
-<p>When developers make changes to the package, they should check if the package builds without errors or warnings, before committing changes to the central repository. This can be done in the command line by running:</p>
+<p>When developers make changes to the package, they should check if the package builds without errors or warnings, before committing changes to the central repository. This can be done in the command line by running</p>
 <pre><code>R CMD build icesAdvice
 R CMD check --as-cran icesAdvice_1.1-0.tar.gz</code></pre>
+<p>or inside an R session using the <code>devtools</code> package,</p>
+<pre><code>library(devtools)
+check()</code></pre>
+<p>along with related <code>devtools</code> functions such as <code>document()</code>, <code>install()</code>, and <code>load_all()</code>.</p>
 <p>The same test is used by Travis and CRAN to test whether the package is broken.</p>
 </div>
 <div id="document-user-visible-changes" class="section level2">

@@ -126,12 +126,22 @@ user-visible changes.
 
 When developers make changes to the package, they should check if the package
 builds without errors or warnings, before committing changes to the central
-repository. This can be done in the command line by running:
+repository. This can be done in the command line by running
 
 ```
 R CMD build icesAdvice
 R CMD check --as-cran icesAdvice_1.1-0.tar.gz
 ```
+
+or inside an R session using the `devtools` package,
+
+```
+library(devtools)
+check()
+```
+
+along with related `devtools` functions such as `document()`, `install()`, and
+`load_all()`.
 
 The same test is used by Travis and CRAN to test whether the package is
 broken.
