@@ -187,12 +187,12 @@ check()</code></pre>
 </div>
 <div id="style" class="section level2">
 <h2><span class="header-section-number">4.5</span> Style</h2>
-<p>There is no need to enforce some ICES style of R code appearance when it comes to indentation, spaces between characters, and maximum length of lines. It is nevertheless helpful to have a consistent style within a given file. The easiest way to achieve this is polite coding:</p>
+<p>There is no need to enforce some ICES style of R code appearance when it comes to indentation, spaces between characters, maximum length of lines, naming of objects, etc. It is nevertheless helpful to have a consistent style within a given file. The easiest way to achieve this is polite coding:</p>
 <ul>
 <li><p>When modifying an existing file, follow (exactly) the style found within that file.</p></li>
 <li><p>When creating a new file, use a consistent style within that file.</p></li>
 </ul>
-<p>This means that within a given project (e.g., a package) several styles may coexist, but each file uses a consistent style. Among the common characteristics of good programming styles are that all text files end with a newline character, and trailing spaces should be avoided.</p>
+<p>This means that within a given project (e.g., a package) several styles may coexist, but each file uses a consistent style. Among the common characteristics of good programming styles are that trailing spaces should be avoided, and at the very end of a text file the last character should be a newline.</p>
 <p><br><br></p>
 </div>
 </div>
