@@ -112,8 +112,12 @@ Similar to the `Bpa.R` file.
 ## icesAdvice-package.R
 
 Package documentation: annotated list of functions, where related functions are
-grouped together, URL references, required functions from other packages. Note
-how the Roxygen comments end up in `icesAdvice-package.Rd` and `NAMESPACE`.
+grouped together. This gives users a much better overview of the package than a
+dry alphabetical list of function.
+
+References, such as publications and websites, can describe how the package is
+related to the world outside of R. Note how the Roxygen comments end up in
+`icesAdvice-package.Rd` and `NAMESPACE`.
 
 <br><br>
 

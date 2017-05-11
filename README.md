@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -145,7 +145,8 @@
 </div>
 <div id="icesadvice-package.r" class="section level2">
 <h2><span class="header-section-number">3.3</span> icesAdvice-package.R</h2>
-<p>Package documentation: annotated list of functions, where related functions are grouped together, URL references, required functions from other packages. Note how the Roxygen comments end up in <code>icesAdvice-package.Rd</code> and <code>NAMESPACE</code>.</p>
+<p>Package documentation: annotated list of functions, where related functions are grouped together. This gives users a much better overview of the package than a dry alphabetical list of function.</p>
+<p>References, such as publications and websites, can describe how the package is related to the world outside of R. Note how the Roxygen comments end up in <code>icesAdvice-package.Rd</code> and <code>NAMESPACE</code>.</p>
 <p><br><br></p>
 </div>
 </div>
