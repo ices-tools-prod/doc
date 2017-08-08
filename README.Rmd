@@ -36,18 +36,23 @@ package development, where topics are covered in greater depth.
 
 ## Where ICES packages live
 
-### GitHub
-
-GitHub is a code repository, where ongoing development takes place. Several
-people can have write-access and work together on development and maintenance. R
-packages on GitHub may or may not work at a given moment, documentation might be
-missing, etc.
-
 ### CRAN
 
 CRAN is the official R archive for distributing packages to the global user
-community. Packages on CRAN are guaranteed to pass a series of integrity tests
-of code and documentation.
+community. Packages on CRAN are the latest official release, guaranteed to pass
+integrity tests of code and documentation.
+
+### GitHub
+
+GitHub is a code repository, where development versions of packages reside.
+Several people can have write-access and work together on development and
+maintenance. ICES provides two GitHub areas for R packages:
+
+- github.com/**ices-tools-prod** contains packages that are operational and
+  maintained by the ICES Secretariat
+
+- github.com/**ices-tools-dev** contains everything else (incl. operational
+  packages maintained by scientists outside the Secretariat)
 
 ## The icesAdvice package
 

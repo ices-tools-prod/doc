@@ -82,13 +82,17 @@
 </div>
 <div id="where-ices-packages-live" class="section level2">
 <h2><span class="header-section-number">1.2</span> Where ICES packages live</h2>
-<div id="github" class="section level3">
-<h3><span class="header-section-number">1.2.1</span> GitHub</h3>
-<p>GitHub is a code repository, where ongoing development takes place. Several people can have write-access and work together on development and maintenance. R packages on GitHub may or may not work at a given moment, documentation might be missing, etc.</p>
-</div>
 <div id="cran" class="section level3">
-<h3><span class="header-section-number">1.2.2</span> CRAN</h3>
-<p>CRAN is the official R archive for distributing packages to the global user community. Packages on CRAN are guaranteed to pass a series of integrity tests of code and documentation.</p>
+<h3><span class="header-section-number">1.2.1</span> CRAN</h3>
+<p>CRAN is the official R archive for distributing packages to the global user community. Packages on CRAN are the latest official release, guaranteed to pass integrity tests of code and documentation.</p>
+</div>
+<div id="github" class="section level3">
+<h3><span class="header-section-number">1.2.2</span> GitHub</h3>
+<p>GitHub is a code repository, where development versions of packages reside. Several people can have write-access and work together on development and maintenance. ICES provides two GitHub areas for R packages:</p>
+<ul>
+<li><p>github.com/<strong>ices-tools-prod</strong> contains packages that are operational and maintained by the ICES Secretariat</p></li>
+<li><p>github.com/<strong>ices-tools-dev</strong> contains everything else (incl. operational packages maintained by scientists outside the Secretariat)</p></li>
+</ul>
 </div>
 </div>
 <div id="the-icesadvice-package" class="section level2">
