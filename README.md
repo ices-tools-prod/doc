@@ -91,7 +91,7 @@
 <p>GitHub is a code repository, where development versions of packages reside. Several people can have write-access and work together on development and maintenance. ICES provides two GitHub areas for R packages:</p>
 <ul>
 <li><p>github.com/<strong>ices-tools-prod</strong> contains packages that are operational and maintained by the ICES Secretariat</p></li>
-<li><p>github.com/<strong>ices-tools-dev</strong> contains everything else (incl. operational packages maintained by scientists outside the Secretariat)</p></li>
+<li><p>github.com/<strong>ices-tools-dev</strong> contains everything else (operational packages maintained by scientists outside the Secretariat, experimental projects, etc.)</p></li>
 </ul>
 </div>
 </div>

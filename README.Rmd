@@ -51,8 +51,8 @@ maintenance. ICES provides two GitHub areas for R packages:
 - github.com/**ices-tools-prod** contains packages that are operational and
   maintained by the ICES Secretariat
 
-- github.com/**ices-tools-dev** contains everything else (incl. operational
-  packages maintained by scientists outside the Secretariat)
+- github.com/**ices-tools-dev** contains everything else (operational packages
+  maintained by scientists outside the Secretariat, experimental projects, etc.)
 
 ## The icesAdvice package
 
