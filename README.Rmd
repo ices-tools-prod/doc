@@ -226,7 +226,7 @@ allows for relatively brief entries in the arguments section.
 ***Notes*** can be used for all further commentary.
 
 This division is efficient for the reader skimming through the help page, since
-the Details section appears right after the arguments, and the Notes section
+the *Details* section appears right after the arguments, and the *Notes* section
 right after the returned value.
 
 ## Style

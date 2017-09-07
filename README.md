@@ -198,7 +198,7 @@ check()</code></pre>
 <p><strong><em>Description</em></strong> should be short, extending the title into a proper sentence or two.</p>
 <p><strong><em>Details</em></strong> can be used to elaborate on specific function arguments. This allows for relatively brief entries in the arguments section.</p>
 <p><strong><em>Notes</em></strong> can be used for all further commentary.</p>
-<p>This division is efficient for the reader skimming through the help page, since the Details section appears right after the arguments, and the Notes section right after the returned value.</p>
+<p>This division is efficient for the reader skimming through the help page, since the <em>Details</em> section appears right after the arguments, and the <em>Notes</em> section right after the returned value.</p>
 </div>
 <div id="style" class="section level2">
 <h2><span class="header-section-number">4.6</span> Style</h2>
