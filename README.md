@@ -56,7 +56,7 @@
 <li><a href="#document-user-visible-changes"><span class="toc-section-number">4.2</span> Document user-visible changes</a></li>
 <li><a href="#version-number"><span class="toc-section-number">4.3</span> Version number</a></li>
 <li><a href="#dependencies"><span class="toc-section-number">4.4</span> Dependencies</a></li>
-<li><a href="#details-and-notes"><span class="toc-section-number">4.5</span> Details and notes</a></li>
+<li><a href="#help-page-sections"><span class="toc-section-number">4.5</span> Help page sections</a></li>
 <li><a href="#style"><span class="toc-section-number">4.6</span> Style</a></li>
 </ul></li>
 <li><a href="#references-1"><span class="toc-section-number">5</span> References</a><ul>
@@ -191,10 +191,14 @@ check()</code></pre>
 <p>It is fine for developers to use dependency-intensive tools like <strong>devtools</strong>, <strong>knitr</strong>, <strong>rmarkdown</strong>, and <strong>roxygen2</strong> for developing packages. The end user does not require these tools to install and use the package.</p>
 <p>R programmers work in a variety of development environments: Linux/Windows, Emacs/RStudio, etc. When collaborating with others in package development and maintenance, files or pathways that are specific to one development environment should be avoided.</p>
 </div>
-<div id="details-and-notes" class="section level2">
-<h2><span class="header-section-number">4.5</span> Details and notes</h2>
-<p>Two seemingly overlapping sections in R help pages are <em>Details</em> and <em>Notes</em> (both optional). One sensible way is to use the Details section to elaborate on specific function arguments, and the Notes section for all further commentary.</p>
-<p>This division is logical for the reader skimming through the help page, since the Details section appears right after the arguments, and the Notes section right after the returned value.</p>
+<div id="help-page-sections" class="section level2">
+<h2><span class="header-section-number">4.5</span> Help page sections</h2>
+<p>R pages have several sections informing the user how the function can be used.</p>
+<p><em>Title</em> is the main heading of an R help page. It should use only a few words, including words from the function name itself, to describe some computation or action. Use title case (most words capitalized).</p>
+<p><em>Description</em> should be short, extending the title into a proper sentence or two.</p>
+<p><em>Details</em> can be used to elaborate on specific function arguments. This allows for relatively brief explanations in the arguments section.</p>
+<p><em>Notes</em> can be used for all further commentary.</p>
+<p>This division is efficient for the reader skimming through the help page, since the Details section appears right after the arguments, and the Notes section right after the returned value.</p>
 </div>
 <div id="style" class="section level2">
 <h2><span class="header-section-number">4.6</span> Style</h2>
