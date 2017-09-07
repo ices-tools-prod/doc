@@ -196,7 +196,7 @@ check()</code></pre>
 <p>R pages have several sections informing the user how the function can be used.</p>
 <p><strong><em>Title</em></strong> is the main heading of an R help page. It should use only a few words, including words from the function name itself, to describe some computation or action. Use title case (most words capitalized).</p>
 <p><strong><em>Description</em></strong> should be short, extending the title into a proper sentence or two.</p>
-<p><strong><em>Details</em></strong> can be used to elaborate on specific function arguments. This allows for relatively brief explanations in the arguments section.</p>
+<p><strong><em>Details</em></strong> can be used to elaborate on specific function arguments. This allows for relatively brief entries in the arguments section.</p>
 <p><strong><em>Notes</em></strong> can be used for all further commentary.</p>
 <p>This division is efficient for the reader skimming through the help page, since the Details section appears right after the arguments, and the Notes section right after the returned value.</p>
 </div>

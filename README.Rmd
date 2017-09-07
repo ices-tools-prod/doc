@@ -221,7 +221,7 @@ computation or action. Use title case (most words capitalized).
 two.
 
 ***Details*** can be used to elaborate on specific function arguments. This
-allows for relatively brief explanations in the arguments section.
+allows for relatively brief entries in the arguments section.
 
 ***Notes*** can be used for all further commentary.
 
