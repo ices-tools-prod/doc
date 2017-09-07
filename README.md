@@ -56,7 +56,8 @@
 <li><a href="#document-user-visible-changes"><span class="toc-section-number">4.2</span> Document user-visible changes</a></li>
 <li><a href="#version-number"><span class="toc-section-number">4.3</span> Version number</a></li>
 <li><a href="#dependencies"><span class="toc-section-number">4.4</span> Dependencies</a></li>
-<li><a href="#style"><span class="toc-section-number">4.5</span> Style</a></li>
+<li><a href="#details-and-notes"><span class="toc-section-number">4.5</span> Details and notes</a></li>
+<li><a href="#style"><span class="toc-section-number">4.6</span> Style</a></li>
 </ul></li>
 <li><a href="#references-1"><span class="toc-section-number">5</span> References</a><ul>
 <li><a href="#writing-r-packages"><span class="toc-section-number">5.1</span> Writing R packages</a></li>
@@ -190,8 +191,13 @@ check()</code></pre>
 <p>It is fine for developers to use dependency-intensive tools like <strong>devtools</strong>, <strong>knitr</strong>, <strong>rmarkdown</strong>, and <strong>roxygen2</strong> for developing packages. The end user does not require these tools to install and use the package.</p>
 <p>R programmers work in a variety of development environments: Linux/Windows, Emacs/RStudio, etc. When collaborating with others in package development and maintenance, files or pathways that are specific to one development environment should be avoided.</p>
 </div>
+<div id="details-and-notes" class="section level2">
+<h2><span class="header-section-number">4.5</span> Details and notes</h2>
+<p>Two seemingly overlapping sections in R help pages are <em>Details</em> and <em>Notes</em> (both optional). One sensible way is to use the Details section to elaborate on specific function arguments, and the Notes section for all further commentary.</p>
+<p>This division is logical for the reader skimming through the help page, since the Details section appears right after the arguments, and the Notes section right after the returned value.</p>
+</div>
 <div id="style" class="section level2">
-<h2><span class="header-section-number">4.5</span> Style</h2>
+<h2><span class="header-section-number">4.6</span> Style</h2>
 <p>There is no need to enforce some ICES style of R code appearance when it comes to indentation, spaces between characters, maximum length of lines, naming of objects, etc. It is nevertheless helpful to have a consistent style within a given file. The easiest way to achieve this is polite coding:</p>
 <ul>
 <li><p>When modifying an existing file, follow (exactly) the style found within that file.</p></li>

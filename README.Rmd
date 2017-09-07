@@ -209,6 +209,16 @@ Emacs/RStudio, etc. When collaborating with others in package development and
 maintenance, files or pathways that are specific to one development environment
 should be avoided.
 
+## Details and notes
+
+Two seemingly overlapping sections in R help pages are *Details* and *Notes*
+(both optional). One sensible way is to use the Details section to elaborate on
+specific function arguments, and the Notes section for all further commentary.
+
+This division is logical for the reader skimming through the help page, since
+the Details section appears right after the arguments, and the Notes section
+right after the returned value.
+
 ## Style
 
 There is no need to enforce some ICES style of R code appearance when it comes
