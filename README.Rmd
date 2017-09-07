@@ -213,17 +213,17 @@ should be avoided.
 
 R pages have several sections informing the user how the function can be used.
 
-*Title* is the main heading of an R help page. It should use only a few words,
-including words from the function name itself, to describe some computation or
-action. Use title case (most words capitalized).
+***Title*** is the main heading of an R help page. It should use only a few
+words, including words from the function name itself, to describe some
+computation or action. Use title case (most words capitalized).
 
-*Description* should be short, extending the title into a proper sentence or
+***Description*** should be short, extending the title into a proper sentence or
 two.
 
-*Details* can be used to elaborate on specific function arguments. This allows
-for relatively brief explanations in the arguments section.
+***Details*** can be used to elaborate on specific function arguments. This
+allows for relatively brief explanations in the arguments section.
 
-*Notes* can be used for all further commentary.
+***Notes*** can be used for all further commentary.
 
 This division is efficient for the reader skimming through the help page, since
 the Details section appears right after the arguments, and the Notes section

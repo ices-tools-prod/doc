@@ -194,10 +194,10 @@ check()</code></pre>
 <div id="help-page-sections" class="section level2">
 <h2><span class="header-section-number">4.5</span> Help page sections</h2>
 <p>R pages have several sections informing the user how the function can be used.</p>
-<p><em>Title</em> is the main heading of an R help page. It should use only a few words, including words from the function name itself, to describe some computation or action. Use title case (most words capitalized).</p>
-<p><em>Description</em> should be short, extending the title into a proper sentence or two.</p>
-<p><em>Details</em> can be used to elaborate on specific function arguments. This allows for relatively brief explanations in the arguments section.</p>
-<p><em>Notes</em> can be used for all further commentary.</p>
+<p><strong><em>Title</em></strong> is the main heading of an R help page. It should use only a few words, including words from the function name itself, to describe some computation or action. Use title case (most words capitalized).</p>
+<p><strong><em>Description</em></strong> should be short, extending the title into a proper sentence or two.</p>
+<p><strong><em>Details</em></strong> can be used to elaborate on specific function arguments. This allows for relatively brief explanations in the arguments section.</p>
+<p><strong><em>Notes</em></strong> can be used for all further commentary.</p>
 <p>This division is efficient for the reader skimming through the help page, since the Details section appears right after the arguments, and the Notes section right after the returned value.</p>
 </div>
 <div id="style" class="section level2">
