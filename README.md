@@ -56,8 +56,9 @@
 <li><a href="#document-user-visible-changes"><span class="toc-section-number">4.2</span> Document user-visible changes</a></li>
 <li><a href="#version-number"><span class="toc-section-number">4.3</span> Version number</a></li>
 <li><a href="#dependencies"><span class="toc-section-number">4.4</span> Dependencies</a></li>
-<li><a href="#help-page-sections"><span class="toc-section-number">4.5</span> Help page sections</a></li>
-<li><a href="#style"><span class="toc-section-number">4.6</span> Style</a></li>
+<li><a href="#adding-a-new-function"><span class="toc-section-number">4.5</span> Adding a new function</a></li>
+<li><a href="#help-page-sections"><span class="toc-section-number">4.6</span> Help page sections</a></li>
+<li><a href="#style"><span class="toc-section-number">4.7</span> Style</a></li>
 </ul></li>
 <li><a href="#references-1"><span class="toc-section-number">5</span> References</a><ul>
 <li><a href="#writing-r-packages"><span class="toc-section-number">5.1</span> Writing R packages</a></li>
@@ -191,8 +192,19 @@ check()</code></pre>
 <p>It is fine for developers to use dependency-intensive tools like <strong>devtools</strong>, <strong>knitr</strong>, <strong>rmarkdown</strong>, and <strong>roxygen2</strong> for developing packages. The end user does not require these tools to install and use the package.</p>
 <p>R programmers work in a variety of development environments: Linux/Windows, Emacs/RStudio, etc. When collaborating with others in package development and maintenance, files or pathways that are specific to one development environment should be avoided.</p>
 </div>
+<div id="adding-a-new-function" class="section level2">
+<h2><span class="header-section-number">4.5</span> Adding a new function</h2>
+<p>Adding a new function to an existing ICES R package typically involves modifying more than one file:</p>
+<ol style="list-style-type: decimal">
+<li><p><code>myfunction.R</code> defining and documenting the function.</p></li>
+<li><p><code>otherfunctions.R</code> adding cross references (See Also) from other related help pages.</p></li>
+<li><p><code>ices*-package.R</code> describing where the function fits logically with the rest of the package.</p></li>
+<li><p><code>NEWS</code> adding the function to a news entry, corresponding to a version number and date.</p></li>
+<li><p><code>DESCRIPTION</code> updating the version number and date.</p></li>
+</ol>
+</div>
 <div id="help-page-sections" class="section level2">
-<h2><span class="header-section-number">4.5</span> Help page sections</h2>
+<h2><span class="header-section-number">4.6</span> Help page sections</h2>
 <p>R pages have several sections informing the user how the function can be used.</p>
 <p><strong><em>Title</em></strong> is the main heading of an R help page. It should use only a few words, including words from the function name itself, to describe some computation or action. Use title case (most words capitalized).</p>
 <p><strong><em>Description</em></strong> should be short, extending the title into a proper sentence or two.</p>
@@ -201,7 +213,7 @@ check()</code></pre>
 <p>This division is efficient for the reader skimming through the help page, since the <em>Details</em> section appears right after the arguments, and the <em>Notes</em> section right after the returned value.</p>
 </div>
 <div id="style" class="section level2">
-<h2><span class="header-section-number">4.6</span> Style</h2>
+<h2><span class="header-section-number">4.7</span> Style</h2>
 <p>There is no need to enforce some ICES style of R code appearance when it comes to indentation, spaces between characters, maximum length of lines, naming of objects, etc. It is nevertheless helpful to have a consistent style within a given file. The easiest way to achieve this is polite coding:</p>
 <ul>
 <li><p>When modifying an existing file, follow (exactly) the style found within that file.</p></li>

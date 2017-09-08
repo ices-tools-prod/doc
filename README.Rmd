@@ -209,6 +209,24 @@ Emacs/RStudio, etc. When collaborating with others in package development and
 maintenance, files or pathways that are specific to one development environment
 should be avoided.
 
+## Adding a new function
+
+Adding a new function to an existing ICES R package typically involves modifying
+more than one file:
+
+1. `myfunction.R` defining and documenting the function.
+
+2. `otherfunctions.R` adding cross references (See Also) from other related help
+   pages.
+
+3. `ices*-package.R` describing where the function fits logically with the rest
+   of the package.
+
+4. `NEWS` adding the function to a news entry, corresponding to a version number
+   and date.
+
+5. `DESCRIPTION` updating the version number and date.
+
 ## Help page sections
 
 R pages have several sections informing the user how the function can be used.
