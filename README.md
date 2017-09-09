@@ -152,8 +152,8 @@
 </div>
 <div id="icesadvice-package.r" class="section level2">
 <h2><span class="header-section-number">3.3</span> icesAdvice-package.R</h2>
-<p>Package documentation: annotated list of functions, where related functions are grouped together. This gives users a much better overview of the package than a dry alphabetical list of functions.</p>
-<p>References, such as publications and websites, can describe how the package is related to the world outside of R. Note how the Roxygen comments end up in <code>icesAdvice-package.Rd</code> and <code>NAMESPACE</code>.</p>
+<p>Package help page: annotated list of functions, where related functions are grouped together. This gives users a much better overview of the package than a dry alphabetical list of functions. To view the package help page, the user simply types <code>?icesAdvice</code> in the R console.</p>
+<p>A link to this main page is found in the See Also section of all help pages in the package. References, such as publications and websites, can describe how the package is related to the world outside of R. Note how the Roxygen comments end up in <code>icesAdvice-package.Rd</code>.</p>
 <p><br><br></p>
 </div>
 </div>
