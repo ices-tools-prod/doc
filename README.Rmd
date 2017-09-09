@@ -123,7 +123,7 @@ Similar to the `Bpa.R` file.
 
 Package documentation: annotated list of functions, where related functions are
 grouped together. This gives users a much better overview of the package than a
-dry alphabetical list of function.
+dry alphabetical list of functions.
 
 References, such as publications and websites, can describe how the package is
 related to the world outside of R. Note how the Roxygen comments end up in
@@ -270,8 +270,8 @@ the very end of a text file the last character should be a newline.
 
 ## Writing R packages
 
-* R Core Team. 2016. ***Writing R extensions***. Vienna: R Foundation for
-  Statistical Computing. Available at:\
+* R Core Team. ***Writing R extensions***. Vienna: R Foundation for Statistical
+  Computing. Available at:\
   https://cran.r-project.org/doc/manuals/r-release/R-exts.html and\
   https://cran.r-project.org/doc/manuals/r-release/R-exts.pdf
 
@@ -284,8 +284,7 @@ the very end of a text file the last character should be a newline.
   Available at:\
   https://git-scm.com/book/en/v2
 
-* ESS Developers. 2016. ***Emacs Speaks Statistics***. User manual.
-  Available at:\
+* ESS Developers. ***Emacs Speaks Statistics***. User manual. Available at:\
   http://ess.r-project.org/Manual/ess.html and\
   http://ess.r-project.org/ess.pdf
 
@@ -293,6 +292,5 @@ the very end of a text file the last character should be a newline.
   User manuals. Available at:\
   https://www.rstudio.com/resources/cheatsheets/
 
-* Wickham, H. 2015. ***Introduction to roxygen2***. R package vignette.
-  Available at:\
+* Wickham, H. ***Introduction to roxygen2***. R package vignette. Available at:\
   https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html

@@ -152,7 +152,7 @@
 </div>
 <div id="icesadvice-package.r" class="section level2">
 <h2><span class="header-section-number">3.3</span> icesAdvice-package.R</h2>
-<p>Package documentation: annotated list of functions, where related functions are grouped together. This gives users a much better overview of the package than a dry alphabetical list of function.</p>
+<p>Package documentation: annotated list of functions, where related functions are grouped together. This gives users a much better overview of the package than a dry alphabetical list of functions.</p>
 <p>References, such as publications and websites, can describe how the package is related to the world outside of R. Note how the Roxygen comments end up in <code>icesAdvice-package.Rd</code> and <code>NAMESPACE</code>.</p>
 <p><br><br></p>
 </div>
@@ -228,7 +228,7 @@ check()</code></pre>
 <div id="writing-r-packages" class="section level2">
 <h2><span class="header-section-number">5.1</span> Writing R packages</h2>
 <ul>
-<li><p>R Core Team. 2016. <strong><em>Writing R extensions</em></strong>. Vienna: R Foundation for Statistical Computing. Available at:<br /> <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html">https://cran.r-project.org/doc/manuals/r-release/R-exts.html</a> and<br /> <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.pdf">https://cran.r-project.org/doc/manuals/r-release/R-exts.pdf</a></p></li>
+<li><p>R Core Team. <strong><em>Writing R extensions</em></strong>. Vienna: R Foundation for Statistical Computing. Available at:<br /> <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html">https://cran.r-project.org/doc/manuals/r-release/R-exts.html</a> and<br /> <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.pdf">https://cran.r-project.org/doc/manuals/r-release/R-exts.pdf</a></p></li>
 <li><p>Wickham, H. 2015. <strong><em>R packages</em></strong>. Sebastopol: O’Reilly. Available at:<br /> <a href="http://r-pkgs.had.co.nz">http://r-pkgs.had.co.nz</a></p></li>
 </ul>
 </div>
@@ -236,9 +236,9 @@ check()</code></pre>
 <h2><span class="header-section-number">5.2</span> Development tools</h2>
 <ul>
 <li><p>Chacon, S. and B. Straub. 2014. <strong><em>Pro Git</em></strong>, 2nd ed. New York: Apress. Available at:<br /> <a href="https://git-scm.com/book/en/v2">https://git-scm.com/book/en/v2</a></p></li>
-<li><p>ESS Developers. 2016. <strong><em>Emacs Speaks Statistics</em></strong>. User manual. Available at:<br /> <a href="http://ess.r-project.org/Manual/ess.html">http://ess.r-project.org/Manual/ess.html</a> and<br /> <a href="http://ess.r-project.org/ess.pdf">http://ess.r-project.org/ess.pdf</a></p></li>
+<li><p>ESS Developers. <strong><em>Emacs Speaks Statistics</em></strong>. User manual. Available at:<br /> <a href="http://ess.r-project.org/Manual/ess.html">http://ess.r-project.org/Manual/ess.html</a> and<br /> <a href="http://ess.r-project.org/ess.pdf">http://ess.r-project.org/ess.pdf</a></p></li>
 <li><p>RStudio. 2016. <strong><em>RStudio cheat sheets: RStudio IDE, devtools, R Markdown</em></strong>. User manuals. Available at:<br /> <a href="https://www.rstudio.com/resources/cheatsheets/">https://www.rstudio.com/resources/cheatsheets/</a></p></li>
-<li><p>Wickham, H. 2015. <strong><em>Introduction to roxygen2</em></strong>. R package vignette. Available at:<br /> <a href="https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html">https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html</a></p></li>
+<li><p>Wickham, H. <strong><em>Introduction to roxygen2</em></strong>. R package vignette. Available at:<br /> <a href="https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html">https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html</a></p></li>
 </ul>
 </div>
 </div>
