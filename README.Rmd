@@ -240,6 +240,8 @@ computation or action. Use title case (most words capitalized).
 ***Description*** should be short, extending the title into a proper sentence or
 two.
 
+***Arguments*** start in lowercase and end with a period.
+
 ***Details*** can be used to elaborate on specific function arguments. This
 allows for relatively brief entries in the arguments section.
 
