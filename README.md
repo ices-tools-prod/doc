@@ -103,7 +103,7 @@
 <h3><span class="header-section-number">1.3.1</span> On CRAN and GitHub</h3>
 <p>The latest official release of the package is on CRAN:<br /><a href="https://cran.r-project.org/package=icesAdvice">https://cran.r-project.org/package=icesAdvice</a></p>
 <p>The development of the package takes place on GitHub:<br /><a href="https://github.com/ices-tools-prod/icesAdvice">https://github.com/ices-tools-prod/icesAdvice</a></p>
-<p>Previous releases are available on CRAN and GitHub, including version 1.1-0 that the following commentary is based on:<br /> <a href="https://cran.r-project.org/src/contrib/Archive/icesAdvice/">https://cran.r-project.org/src/contrib/Archive/icesAdvice/</a><br /><a href="https://github.com/ices-tools-prod/icesAdvice/releases">https://github.com/ices-tools-prod/icesAdvice/releases</a></p>
+<p>Previous releases are available on CRAN and GitHub, including version 1.1-0 that the following commentary is based on:<br /> <a href="https://cran.r-project.org/src/contrib/Archive/icesAdvice/">https://cran.r-project.org/src/contrib/Archive/icesAdvice/</a><br /><a href="https://github.com/ices-tools-prod/icesAdvice/releases">https://github.com/ices-tools-prod/icesAdvice/releases</a><br /><a href="https://github.com/ices-tools-prod/icesAdvice/tree/1.1-0">https://github.com/ices-tools-prod/icesAdvice/tree/1.1-0</a></p>
 </div>
 <div id="roxygen" class="section level3">
 <h3><span class="header-section-number">1.3.2</span> Roxygen</h3>
