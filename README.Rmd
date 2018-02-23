@@ -190,7 +190,7 @@ the nature of changes between releases:
 
 The package version number is mainly referring to formal releases, and does not
 have to be changed during incremental development. At the time of release, the
-list of changes in the `NEWS` file are reviewed to determine the appropriate
+list of changes in the `NEWS` file is reviewed to determine the appropriate
 version number.
 
 ## Dependencies

@@ -183,7 +183,7 @@ check()</code></pre>
 <li><p>The second counter (<em>minor</em>) means new functions, new arguments, or the like. A minor release suggests that it’s worthwhile for the user to read about the new functionality.</p></li>
 <li><p>The third counter (<em>patch</em>) is used for other improvements. A patch release may introduce bug fixes, improved documentation, etc.</p></li>
 </ol>
-<p>The package version number is mainly referring to formal releases, and does not have to be changed during incremental development. At the time of release, the list of changes in the <code>NEWS</code> file are reviewed to determine the appropriate version number.</p>
+<p>The package version number is mainly referring to formal releases, and does not have to be changed during incremental development. At the time of release, the list of changes in the <code>NEWS</code> file is reviewed to determine the appropriate version number.</p>
 </div>
 <div id="dependencies" class="section level2">
 <h2><span class="header-section-number">4.4</span> Dependencies</h2>
