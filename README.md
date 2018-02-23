@@ -75,7 +75,7 @@
 <div id="a-guided-tour" class="section level3">
 <h3><span class="header-section-number">1.1.1</span> A guided tour</h3>
 <p>This document provides a basic overview of how we might organize R package development at ICES. The intended audience is R programmers within the ICES community, who might contribute functions to R packages maintained by ICES.</p>
-<p>The overview is organized as a quick walk through the inner structure of the <strong>icesAdvice</strong> package version 1.1-0 (CRAN version from 18 May 2016). Using this minimal example, the essential topics are visited by going through one file at a time.</p>
+<p>The overview is organized as a quick walk through the inner structure of the <strong>icesAdvice</strong> package version <a href="https://github.com/ices-tools-prod/icesAdvice/tree/1.1-0">1.1-0</a> (CRAN version from 18 May 2016). Using this minimal example, the essential topics are visited by going through one file at a time.</p>
 </div>
 <div id="references" class="section level3">
 <h3><span class="header-section-number">1.1.2</span> References</h3>

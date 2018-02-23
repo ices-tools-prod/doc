@@ -25,9 +25,10 @@ development at ICES. The intended audience is R programmers within the ICES
 community, who might contribute functions to R packages maintained by ICES.
 
 The overview is organized as a quick walk through the inner structure of the
-**icesAdvice** package version 1.1-0 (CRAN version from 18 May 2016). Using this
-minimal example, the essential topics are visited by going through one file at a
-time.
+**icesAdvice** package version
+[1.1-0](https://github.com/ices-tools-prod/icesAdvice/tree/1.1-0) (CRAN version
+from 18 May 2016). Using this minimal example, the essential topics are visited
+by going through one file at a time.
 
 ### References
 
