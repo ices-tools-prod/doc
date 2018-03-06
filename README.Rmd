@@ -22,7 +22,8 @@ vignette: >
 
 This document provides a basic overview of how we might organize R package
 development at ICES. The intended audience is R programmers within the ICES
-community, who might contribute functions to R packages maintained by ICES.
+community, who might contribute functions to R packages maintained by the ICES
+Secretariat.
 
 The overview is organized as a quick walk through the inner structure of the
 **icesAdvice** package version
