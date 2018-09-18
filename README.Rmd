@@ -295,8 +295,8 @@ the very end of a text file the last character should be a newline.
   http://ess.r-project.org/Manual/ess.html and\
   http://ess.r-project.org/ess.pdf
 
-* RStudio. 2016. ***RStudio cheat sheets: RStudio IDE, devtools, R Markdown***.
-  User manuals. Available at:\
+* RStudio. ***RStudio cheat sheets: RStudio IDE, devtools, R Markdown***. User
+  manuals. Available at:\
   https://www.rstudio.com/resources/cheatsheets/
 
 * Wickham, H. ***Introduction to roxygen2***. R package vignette. Available at:\
