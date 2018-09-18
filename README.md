@@ -238,7 +238,7 @@ check()</code></pre>
 <ul>
 <li><p>Chacon, S. and B. Straub. 2014. <strong><em>Pro Git</em></strong>, 2nd ed. New York: Apress. Available at:<br /> <a href="https://git-scm.com/book/en/v2">https://git-scm.com/book/en/v2</a></p></li>
 <li><p>ESS Developers. <strong><em>Emacs Speaks Statistics</em></strong>. User manual. Available at:<br /> <a href="http://ess.r-project.org/Manual/ess.html">http://ess.r-project.org/Manual/ess.html</a> and<br /> <a href="http://ess.r-project.org/ess.pdf">http://ess.r-project.org/ess.pdf</a></p></li>
-<li><p>RStudio. 2016. <strong><em>RStudio cheat sheets: RStudio IDE, devtools, R Markdown</em></strong>. User manuals. Available at:<br /> <a href="https://www.rstudio.com/resources/cheatsheets/">https://www.rstudio.com/resources/cheatsheets/</a></p></li>
+<li><p>RStudio. <strong><em>RStudio cheat sheets: RStudio IDE, devtools, R Markdown</em></strong>. User manuals. Available at:<br /> <a href="https://www.rstudio.com/resources/cheatsheets/">https://www.rstudio.com/resources/cheatsheets/</a></p></li>
 <li><p>Wickham, H. <strong><em>Introduction to roxygen2</em></strong>. R package vignette. Available at:<br /> <a href="https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html">https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html</a></p></li>
 </ul>
 </div>
