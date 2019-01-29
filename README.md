@@ -242,9 +242,14 @@ code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61
 <li><a href="#help-page-sections"><span class="toc-section-number">4.6</span> Help page sections</a></li>
 <li><a href="#style"><span class="toc-section-number">4.7</span> Style</a></li>
 </ul></li>
-<li><a href="#references-1"><span class="toc-section-number">5</span> References</a><ul>
-<li><a href="#writing-r-packages"><span class="toc-section-number">5.1</span> Writing R packages</a></li>
-<li><a href="#development-tools"><span class="toc-section-number">5.2</span> Development tools</a></li>
+<li><a href="#release-procedure"><span class="toc-section-number">5</span> Release procedure</a><ul>
+<li><a href="#pre-release"><span class="toc-section-number">5.1</span> Pre-release</a></li>
+<li><a href="#submit"><span class="toc-section-number">5.2</span> Submit</a></li>
+<li><a href="#post-release"><span class="toc-section-number">5.3</span> Post-release</a></li>
+</ul></li>
+<li><a href="#references-1"><span class="toc-section-number">6</span> References</a><ul>
+<li><a href="#writing-r-packages"><span class="toc-section-number">6.1</span> Writing R packages</a></li>
+<li><a href="#development-tools"><span class="toc-section-number">6.2</span> Development tools</a></li>
 </ul></li>
 </ul>
 </div>
@@ -411,10 +416,42 @@ check()</code></pre>
 <p><br><br></p>
 </div>
 </div>
+<div id="release-procedure" class="section level1">
+<h1><span class="header-section-number">5</span> Release procedure</h1>
+<div id="pre-release" class="section level2">
+<h2><span class="header-section-number">5.1</span> Pre-release</h2>
+<div id="documentation" class="section level3">
+<h3><span class="header-section-number">5.1.1</span> Documentation</h3>
+<p>New user-visible functionality should be documented, both in R help pages and as entries in the <code>NEWS</code> file. To get an overview of functionality that has been added since the last release, it may be useful to view the commit log entries:</p>
+<pre><code>git log 1.0-0..HEAD</code></pre>
+<p>All user functions should have R help pages that cross-reference related pages, and also have an entry in the package help page.</p>
+<p>After reviewing the news entries, the date and version number can be finalized in the <code>DESCRIPTION</code> and <code>NEWS</code> files.</p>
+</div>
+<div id="repository-maintenance" class="section level3">
+<h3><span class="header-section-number">5.1.2</span> Repository maintenance</h3>
+<p>Once the package has been built and checked, one can merge the most recent changes into the stable branch, for example:</p>
+<pre><code>git checkout master
+git merge develop</code></pre>
+<p>This is also a good time to tag the release:</p>
+<pre><code>git tag 1.1-0</code></pre>
+</div>
+</div>
+<div id="submit" class="section level2">
+<h2><span class="header-section-number">5.2</span> Submit</h2>
+<p>In the case of a CRAN release, the submission form can be found at <a href="https://cran.r-project.org/submit.html" class="uri">https://cran.r-project.org/submit.html</a> along with instructions.</p>
+<p>This can also be done inside an R session using the <code>release()</code> function in the <code>devtools</code> package.</p>
+</div>
+<div id="post-release" class="section level2">
+<h2><span class="header-section-number">5.3</span> Post-release</h2>
+<p>The TAF package maintenance page (<a href="https://ices-taf-dev.github.io/r.html" class="uri">https://ices-taf-dev.github.io/r.html</a>) provides a compact overview of the release history of many ICES packages (icesAdvice, icesDatras, icesSAG, icesSD, icesTAF, icesVocab).</p>
+<p>To update this page, add a line with the following information: version number, date in description file, date of <code>tar.gz</code> file on CRAN, size of <code>tar.gz</code> file on CRAN, GitHub SHA code, and new functions introduced in this release.</p>
+<p><br><br></p>
+</div>
+</div>
 <div id="references-1" class="section level1">
-<h1><span class="header-section-number">5</span> References</h1>
+<h1><span class="header-section-number">6</span> References</h1>
 <div id="writing-r-packages" class="section level2">
-<h2><span class="header-section-number">5.1</span> Writing R packages</h2>
+<h2><span class="header-section-number">6.1</span> Writing R packages</h2>
 <ul>
 <li><p>R Core Team. <strong><em>Writing R extensions</em></strong>. Vienna: R Foundation for Statistical Computing. Available at:<br />
 <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html" class="uri">https://cran.r-project.org/doc/manuals/r-release/R-exts.html</a> and<br />
@@ -424,7 +461,7 @@ check()</code></pre>
 </ul>
 </div>
 <div id="development-tools" class="section level2">
-<h2><span class="header-section-number">5.2</span> Development tools</h2>
+<h2><span class="header-section-number">6.2</span> Development tools</h2>
 <ul>
 <li><p>Chacon, S. and B. Straub. 2014. <strong><em>Pro Git</em></strong>, 2nd ed. New York: Apress. Available at:<br />
 <a href="https://git-scm.com/book/en/v2" class="uri">https://git-scm.com/book/en/v2</a></p></li>
