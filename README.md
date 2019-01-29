@@ -19,7 +19,7 @@
 
 
 
-<style type="text/css">body {
+<!-- <style type="text/css">body {
 background-color: #fff;
 margin: 1em auto;
 max-width: 700px;
@@ -201,7 +201,7 @@ code > span.co { color: #888888; font-style: italic; }
 code > span.ot { color: #007020; } 
 code > span.al { color: #ff0000; font-weight: bold; } 
 code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61717; background-color: #e3d2d2; } 
-</style>
+</style> -->
 
 </head>
 
