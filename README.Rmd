@@ -260,10 +260,10 @@ to indentation, spaces between characters, maximum length of lines, naming of
 objects, etc. It is nevertheless helpful to have a consistent style within a
 given file. The easiest way to achieve this is polite coding:
 
-* When modifying an existing file, follow (exactly) the style found within that
+- When modifying an existing file, follow (exactly) the style found within that
   file.
 
-* When creating a new file, use a consistent style within that file.
+- When creating a new file, use a consistent style within that file.
 
 This means that within a given project (e.g., a package) several styles may
 coexist, but each file uses a consistent style. Among the common characteristics
@@ -276,27 +276,27 @@ the very end of a text file the last character should be a newline.
 
 ## Writing R packages
 
-* R Core Team. ***Writing R extensions***. Vienna: R Foundation for Statistical
+- R Core Team. ***Writing R extensions***. Vienna: R Foundation for Statistical
   Computing. Available at:\
   https://cran.r-project.org/doc/manuals/r-release/R-exts.html and\
   https://cran.r-project.org/doc/manuals/r-release/R-exts.pdf
 
-* Wickham, H. 2015. ***R packages***. Sebastopol: O'Reilly. Available at:\
+- Wickham, H. 2015. ***R packages***. Sebastopol: O'Reilly. Available at:\
   http://r-pkgs.had.co.nz
 
 ## Development tools
 
-* Chacon, S. and B. Straub. 2014. ***Pro Git***, 2nd ed. New York: Apress.
+- Chacon, S. and B. Straub. 2014. ***Pro Git***, 2nd ed. New York: Apress.
   Available at:\
   https://git-scm.com/book/en/v2
 
-* ESS Developers. ***Emacs Speaks Statistics***. User manual. Available at:\
+- ESS Developers. ***Emacs Speaks Statistics***. User manual. Available at:\
   http://ess.r-project.org/Manual/ess.html and\
   http://ess.r-project.org/ess.pdf
 
-* RStudio. ***RStudio cheat sheets: RStudio IDE, devtools, R Markdown***. User
+- RStudio. ***RStudio cheat sheets: RStudio IDE, devtools, R Markdown***. User
   manuals. Available at:\
   https://www.rstudio.com/resources/cheatsheets/
 
-* Wickham, H. ***Introduction to roxygen2***. R package vignette. Available at:\
+- Wickham, H. ***Introduction to roxygen2***. R package vignette. Available at:\
   https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html
