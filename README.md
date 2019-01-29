@@ -288,8 +288,7 @@ code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61
 <p>The development of the package takes place on GitHub:<br />
 <a href="https://github.com/ices-tools-prod/icesAdvice" class="uri">https://github.com/ices-tools-prod/icesAdvice</a></p>
 <p>Previous releases are available on CRAN and GitHub, including version 1.1-0 that the following commentary is based on:<br />
-</p>
-<p><a href="https://cran.r-project.org/src/contrib/Archive/icesAdvice/" class="uri">https://cran.r-project.org/src/contrib/Archive/icesAdvice/</a><br />
+<a href="https://cran.r-project.org/src/contrib/Archive/icesAdvice/" class="uri">https://cran.r-project.org/src/contrib/Archive/icesAdvice/</a><br />
 <a href="https://github.com/ices-tools-prod/icesAdvice/releases" class="uri">https://github.com/ices-tools-prod/icesAdvice/releases</a><br />
 <a href="https://github.com/ices-tools-prod/icesAdvice/tree/1.1-0" class="uri">https://github.com/ices-tools-prod/icesAdvice/tree/1.1-0</a></p>
 </div>
