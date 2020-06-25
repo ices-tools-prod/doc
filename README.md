@@ -255,6 +255,7 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 </ul>
 </div>
 
+<p>General introduction to ICES GitHub: <a href="https://github.com/ices-tools-dev/doc" class="uri">https://github.com/ices-tools-dev/doc</a>.</p>
 <p><br></p>
 <div id="introduction" class="section level1">
 <h1><span class="header-section-number">1</span> Introduction</h1>

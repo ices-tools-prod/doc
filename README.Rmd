@@ -12,6 +12,8 @@ vignette: >
   \usepackage[utf8]{inputenc}
 ---
 
+General introduction to ICES GitHub: https://github.com/ices-tools-dev/doc.
+
 <br>
 
 # Introduction
