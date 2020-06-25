@@ -1,14 +1,14 @@
 <!-- <!DOCTYPE html> -->
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
 
@@ -29,9 +29,6 @@ padding-right: 2em;
 font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 14px;
 line-height: 1.35;
-}
-#header {
-text-align: center;
 }
 #TOC {
 clear: both;
@@ -200,8 +197,12 @@ code > span.st { color: #d14; }
 code > span.co { color: #888888; font-style: italic; } 
 code > span.ot { color: #007020; } 
 code > span.al { color: #ff0000; font-weight: bold; } 
-code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61717; background-color: #e3d2d2; } 
+code > span.fu { color: #900; font-weight: bold; } 
+code > span.er { color: #a61717; background-color: #e3d2d2; } 
 </style> -->
+
+
+
 
 </head>
 
@@ -463,7 +464,7 @@ git merge develop</code></pre>
 <div id="development-tools" class="section level2">
 <h2><span class="header-section-number">6.2</span> Development tools</h2>
 <ul>
-<li><p>Chacon, S. and B. Straub. 2014. <strong><em>Pro Git</em></strong>, 2nd ed. New York: Apress. Available at:<br />
+<li><p>Chacon, S. and B. Straub. 2014. <strong><em>Pro Git</em></strong>, 2nd ed. New York: Apress. Available at:<br />
 <a href="https://git-scm.com/book/en/v2" class="uri">https://git-scm.com/book/en/v2</a></p></li>
 <li><p>ESS Developers. <strong><em>Emacs Speaks Statistics</em></strong>. User manual. Available at:<br />
 <a href="http://ess.r-project.org/Manual/ess.html" class="uri">http://ess.r-project.org/Manual/ess.html</a> and<br />
@@ -476,6 +477,9 @@ git merge develop</code></pre>
 </div>
 </div>
 
+
+
+<!-- code folding -->
 
 
 
