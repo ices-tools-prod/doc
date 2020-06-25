@@ -217,9 +217,10 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 <div id="TOC">
 <ul>
 <li><a href="#introduction"><span class="toc-section-number">1</span> Introduction</a><ul>
-<li><a href="#this-document"><span class="toc-section-number">1.1</span> This document</a></li>
-<li><a href="#where-ices-packages-live"><span class="toc-section-number">1.2</span> Where ICES packages live</a></li>
-<li><a href="#the-icesadvice-package"><span class="toc-section-number">1.3</span> The icesAdvice package</a></li>
+<li><a href="#ices-github"><span class="toc-section-number">1.1</span> ICES GitHub</a></li>
+<li><a href="#this-document"><span class="toc-section-number">1.2</span> This document</a></li>
+<li><a href="#where-ices-packages-live"><span class="toc-section-number">1.3</span> Where ICES packages live</a></li>
+<li><a href="#the-icesadvice-package"><span class="toc-section-number">1.4</span> The icesAdvice package</a></li>
 </ul></li>
 <li><a href="#root-files"><span class="toc-section-number">2</span> Root files</a><ul>
 <li><a href="#rbuildignore"><span class="toc-section-number">2.1</span> .Rbuildignore</a></li>
@@ -255,30 +256,33 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 </ul>
 </div>
 
-<p>General introduction to ICES GitHub: <a href="https://github.com/ices-tools-dev/doc" class="uri">https://github.com/ices-tools-dev/doc</a>.</p>
 <p><br></p>
 <div id="introduction" class="section level1">
 <h1><span class="header-section-number">1</span> Introduction</h1>
+<div id="ices-github" class="section level2">
+<h2><span class="header-section-number">1.1</span> ICES GitHub</h2>
+<p>For a general introduction to ICES GitHub, see <a href="https://github.com/ices-tools-dev/doc" class="uri">https://github.com/ices-tools-dev/doc</a>.</p>
+</div>
 <div id="this-document" class="section level2">
-<h2><span class="header-section-number">1.1</span> This document</h2>
+<h2><span class="header-section-number">1.2</span> This document</h2>
 <div id="a-guided-tour" class="section level3">
-<h3><span class="header-section-number">1.1.1</span> A guided tour</h3>
+<h3><span class="header-section-number">1.2.1</span> A guided tour</h3>
 <p>This document provides a basic overview of how we might organize R package development at ICES. The intended audience is R programmers within the ICES community, who might contribute functions to R packages maintained by the ICES Secretariat.</p>
 <p>The overview is organized as a quick walk through the inner structure of the <strong>icesAdvice</strong> package version <a href="https://github.com/ices-tools-prod/icesAdvice/tree/1.1-0">1.1-0</a> (CRAN version from 18 May 2016). Using this minimal example, the essential topics are visited by going through one file at a time.</p>
 </div>
 <div id="references" class="section level3">
-<h3><span class="header-section-number">1.1.2</span> References</h3>
+<h3><span class="header-section-number">1.2.2</span> References</h3>
 <p>The overview concludes with a list of free books and manuals related to R package development, where topics are covered in greater depth.</p>
 </div>
 </div>
 <div id="where-ices-packages-live" class="section level2">
-<h2><span class="header-section-number">1.2</span> Where ICES packages live</h2>
+<h2><span class="header-section-number">1.3</span> Where ICES packages live</h2>
 <div id="cran" class="section level3">
-<h3><span class="header-section-number">1.2.1</span> CRAN</h3>
+<h3><span class="header-section-number">1.3.1</span> CRAN</h3>
 <p>CRAN is the official R archive for distributing packages to the global user community. Packages on CRAN are the latest official release, guaranteed to pass integrity tests of code and documentation.</p>
 </div>
 <div id="github" class="section level3">
-<h3><span class="header-section-number">1.2.2</span> GitHub</h3>
+<h3><span class="header-section-number">1.3.2</span> GitHub</h3>
 <p>GitHub is a code repository, where development versions of packages reside. Several people can have write-access and work together on development and maintenance. ICES provides two GitHub areas for R packages:</p>
 <ul>
 <li><p>github.com/<strong>ices-tools-prod</strong> contains packages that are operational and maintained by the ICES Secretariat</p></li>
@@ -287,9 +291,9 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 </div>
 </div>
 <div id="the-icesadvice-package" class="section level2">
-<h2><span class="header-section-number">1.3</span> The icesAdvice package</h2>
+<h2><span class="header-section-number">1.4</span> The icesAdvice package</h2>
 <div id="on-cran-and-github" class="section level3">
-<h3><span class="header-section-number">1.3.1</span> On CRAN and GitHub</h3>
+<h3><span class="header-section-number">1.4.1</span> On CRAN and GitHub</h3>
 <p>The latest official release of the package is on CRAN:<br />
 <a href="https://cran.r-project.org/package=icesAdvice" class="uri">https://cran.r-project.org/package=icesAdvice</a></p>
 <p>The development of the package takes place on GitHub:<br />
@@ -300,7 +304,7 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 <a href="https://github.com/ices-tools-prod/icesAdvice/tree/1.1-0" class="uri">https://github.com/ices-tools-prod/icesAdvice/tree/1.1-0</a></p>
 </div>
 <div id="roxygen" class="section level3">
-<h3><span class="header-section-number">1.3.2</span> Roxygen</h3>
+<h3><span class="header-section-number">1.4.2</span> Roxygen</h3>
 <p>The icesAdvice package is developed using Roxygen. This means that the <code>NAMESPACE</code> and <code>*.Rd</code> documentation files are produced automatically from the main <code>*.R</code> source files.</p>
 <p><br><br></p>
 </div>
