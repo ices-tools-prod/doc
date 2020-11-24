@@ -3,10 +3,12 @@
 ## To get TOC and numbered sections, just create HTML and call it .md
 rmarkdown::render("README.Rmd", output_file="README.md")
 
-## To achieve proper GitHub rendering, comment out doctype, title, and style
+## To achieve proper GitHub rendering, comment out doctype, title, style, script
 md <- readLines("README.md")
 md[md=="<!DOCTYPE html>"] <- "<!-- <!DOCTYPE html> -->"
 md <- gsub("(<title>.*</title>)", "<!-- \\1 -->", md)
 md <- gsub("<style", "<!-- <style", md)
 md <- gsub("</style>", "</style> -->", md)
+md <- gsub("<script", "<!-- <script", md)
+md <- gsub("</script>", "<!-- </script>", md)
 writeLines(md, "README.md")
