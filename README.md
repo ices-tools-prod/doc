@@ -423,7 +423,7 @@ check()</code></pre>
 </div>
 <div id="version-number" class="section level2">
 <h2><span class="header-section-number">4.3</span> Version number</h2>
-<p>The tradition for R packages is to use version numbers that consist of three counters, for example 1.2-3. It’s practical to have the three counters indicate the nature of changes between releases:</p>
+<p>The tradition for R packages is to use version numbers that consist of three counters, for example 1.2.3. It’s practical to have the three counters indicate the nature of changes between releases:</p>
 <ol style="list-style-type: decimal">
 <li><p>The first counter (<em>major</em>) is incremented when existing user scripts will not give the same output as before. Breaking backward compatibility with a major release can be inconvenient for users, but is sometimes done to adopt an improved overall design.</p></li>
 <li><p>The second counter (<em>minor</em>) means new functions, new arguments, or the like. A minor release suggests that it’s worthwhile for the user to read about the new functionality.</p></li>
