@@ -178,7 +178,7 @@ useful for package developers and users.
 ## Version number
 
 The tradition for R packages is to use version numbers that consist of three
-counters, for example 1.2-3. It's practical to have the three counters indicate
+counters, for example 1.2.3. It's practical to have the three counters indicate
 the nature of changes between releases:
 
 1. The first counter (*major*) is incremented when existing user scripts will

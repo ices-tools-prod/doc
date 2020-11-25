@@ -14,6 +14,54 @@
 
 <!-- <title>R Package Development at ICES</title> -->
 
+<!-- <style type="text/css">
+a.anchor-section {margin-left: 10px; visibility: hidden; color: inherit;}
+a.anchor-section::before {content: '#';}
+.hasAnchor:hover a.anchor-section {visibility: visible;}
+</style> -->
+<!-- <script>// Anchor sections v1.0 written by Atsushi Yasumoto on Oct 3rd, 2020.
+document.addEventListener('DOMContentLoaded', function() {
+  // Do nothing if AnchorJS is used
+  if (typeof window.anchors === 'object' && anchors.hasOwnProperty('hasAnchorJSLink')) {
+    return;
+  }
+
+  const h = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+  // Do nothing if sections are already anchored
+  if (Array.from(h).some(x => x.classList.contains('hasAnchor'))) {
+    return null;
+  }
+
+  // Use section id when pandoc runs with --section-divs
+  const section_id = function(x) {
+    return ((x.classList.contains('section') || (x.tagName === 'SECTION'))
+            ? x.id : '');
+  };
+
+  // Add anchors
+  h.forEach(function(x) {
+    const id = x.id || section_id(x.parentElement);
+    if (id === '') {
+      return null;
+    }
+    let anchor = document.createElement('a');
+    anchor.href = '#' + id;
+    anchor.classList = ['anchor-section'];
+    x.classList.add('hasAnchor');
+    x.appendChild(anchor);
+  });
+});
+<!-- </script>
+
+<!-- <style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style> -->
 
 
 
@@ -375,7 +423,7 @@ check()</code></pre>
 </div>
 <div id="version-number" class="section level2">
 <h2><span class="header-section-number">4.3</span> Version number</h2>
-<p>The tradition for R packages is to use version numbers that consist of three counters, for example 1.2-3. It’s practical to have the three counters indicate the nature of changes between releases:</p>
+<p>The tradition for R packages is to use version numbers that consist of three counters, for example 1.2.3. It’s practical to have the three counters indicate the nature of changes between releases:</p>
 <ol style="list-style-type: decimal">
 <li><p>The first counter (<em>major</em>) is incremented when existing user scripts will not give the same output as before. Breaking backward compatibility with a major release can be inconvenient for users, but is sometimes done to adopt an improved overall design.</p></li>
 <li><p>The second counter (<em>minor</em>) means new functions, new arguments, or the like. A minor release suggests that it’s worthwhile for the user to read about the new functionality.</p></li>
